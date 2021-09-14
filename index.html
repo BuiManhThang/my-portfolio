@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/avata.jpg" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#service" class="nav__link">Service</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav__toggle"><i class="fas fa-bars"></i></button>
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a href="https://github.com/BuiManhThang" target="_blank" class="socials__link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="https://www.linkedin.com/in/buimanhthang-2322a9220/" target="_blank" class="socials__link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="https://www.facebook.com/arduino.mk.9/" target="_blank" class="socials__link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <button class="scroll-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <header>
+        <section id="home" class="container">
+            <div class="header__wapper">
+                <div class="header__hero">
+                    <p class="header__text">I'm</p>
+                    <h1 class="header__name">Kamisato Ayaka</h1>
+                    <p class="header__job"><span class="header__text-animation"></span><span
+                            class="header__pointer">|</span></p>
+                </div>
+                <div class="header__btns">
+                    <div class="header__btn-wapper header__btn-wapper--cv">
+                        <a href="./cv/cv.pdf" class="header__btn header__btn--cv" download="">
+                            <i class="fas fa-download"></i> CV
+                        </a>
+                    </div>
+                    <div class="header__btn-wapper header__btn-wapper--hire">
+                        <a href="mailto:arduinomk2016@gmail.com" class="header__btn header__btn--hire">
+                            <i class="fas fa-handshake"></i> Hire Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section id="about" class="container">
+        <div class="section">
+            <h2 class="title about__title">About Me</h2>
+            <div class="about__info">
+                <img src="./imgs/avata.jpg" alt="Arthuria Pendragon" class="about__img">
+                <div class="about__desc">
+                    <p class="about__desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit
+                        orci. Donec molestie velit id libero blandit, quis suscipit urna suscipit. Donec aliquet erat eu
+                        lacinia iaculis. Ut tempor tellus eu sem pharetra feugiat. Proin libero ligula, gravida at
+                        porttitor eget.</p>
+                    <a href="mailto:arduinomk2016@gmail.com" class="btn">Hire Me</a>
+                </div>
+            </div>
+
+            <div class="about__skills">
+                <div class="skill">
+                    <div class="skill__header">
+                        <p class="skill__name">HTML</p>
+                        <p class="skill__per">85%</p>
+                    </div>
+                    <div class="skill__process">
+                        <div class="skill__line skill__line--html"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__header">
+                        <p class="skill__name">JavaScript</p>
+                        <p class="skill__per">80%</p>
+                    </div>
+                    <div class="skill__process">
+                        <div class="skill__line skill__line--js"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__header">
+                        <p class="skill__name">React</p>
+                        <p class="skill__per">90%</p>
+                    </div>
+                    <div class="skill__process">
+                        <div class="skill__line skill__line--react"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__header">
+                        <p class="skill__name">Vue</p>
+                        <p class="skill__per">75%</p>
+                    </div>
+                    <div class="skill__process">
+                        <div class="skill__line skill__line--vue"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="container">
+        <div class="section">
+            <h2 class="title">Education</h2>
+            <ul class="time__list">
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">01-Sep-2016</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">30-May-2019</span>
+                    </p>
+                    <h3 class="time__title">High School</h3>
+                    <p class="time__desc">I studied at Ly Thuong Kiet high school
+                    </p>
+                </li>
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">01-Sep-2019</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">01-Sep-2021</span>
+                    </p>
+                    <h3 class="time__title">Online Training</h3>
+                    <p class="time__desc">I have trained at <a href="https://www.freecodecamp.org/bui-manh-thang" target="_blank">Freecodecamp</a> and have got Responsive Web Design Certification
+                    </p>
+                </li>
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">01-Sep-2019</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">01-Sep-2021</span>
+                    </p>
+                    <h3 class="time__title">Online Training</h3>
+                    <p class="time__desc">I have trained at <a href="https://www.freecodecamp.org/bui-manh-thang" target="_blank">Freecodecamp</a> and have got JavaScript Algorithms And Data Structures Certification
+                    </p>
+                </li>
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">01-Sep-2019</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">30-May-2023</span>
+                    </p>
+                    <h3 class="time__title">Bachelor Degree</h3>
+                    <p class="time__desc">Now I am a student at Ha Noi University of Industry
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <div class="section">
+            <h2 class="title">Experience</h2>
+            <ul class="time__list">
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">22-Aug-2021</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">23-Aug-2021</span>
+                    </p>
+                    <h3 class="time__title">React Todo App</h3>
+                    <p class="experience__role">Developer</p>
+                    <p class="time__desc">I has developed a todo app which is my first React app
+                    </p>
+                </li>
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">24-Aug-2021</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">26-Aug-2021</span>
+                    </p>
+                    <h3 class="time__title">React Weather App</h3>
+                    <p class="experience__role">Developer</p>
+                    <p class="time__desc">This is the first time I made a api call
+                    </p>
+                </li>
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">28-Jul-2021</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">15-Aug-2021</span>
+                    </p>
+                    <h3 class="time__title">Waifu App</h3>
+                    <p class="experience__role">Developer</p>
+                    <p class="time__desc">I have created a Vue app to share waifu's info and an Api using NodeJs
+                    </p>
+                </li>
+                <li class="time__item">
+                    <p class="time__date-container">
+                        <span class="time__date">27-Jul-2021</span>
+                        <span class="time__to">to</span>
+                        <span class="time__date">12-Sep-2021</span>
+                    </p>
+                    <h3 class="time__title">E-commerce Website</h3>
+                    <p class="experience__role">Developer</p>
+                    <p class="time__desc">I have developed e-commerce website about laptop with React for Frontend and NodeJs for Backend
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="service" class="container">
+        <div class="section">
+            <h2 class="title">Service</h2>
+            <ul class="time__list">
+                <li class="service__item">
+                    <div class="service__icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="service__title">React App Development</h3>
+                    <p class="service__desc">I have got fundamental in React, Redux, React-router and have some experience, which I earned in my projects, to develop a React App effectively</p>
+                </li>
+                <li class="service__item">
+                    <div class="service__icon">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <h3 class="service__title">Vue App Development</h3>
+                    <p class="service__desc">I have got fundamental in Vue3, Vuex, Vue Composition API and have some experience, which I earned in my projects, to develop a Vue App effectively</p>
+                </li>
+                <li class="service__item">
+                    <div class="service__icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service__title">Web Development</h3>
+                    <p class="service__desc">I am able to develop a website with HTML5, CSS3, JavaScript for Frontend, and NodeJs for Backend</p>
+                </li>
+                <li class="service__item">
+                    <div class="service__icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="service__title">NodeJS</h3>
+                    <p class="service__desc">I have got fundamental in NodeJs, Express frameword, Database Management System and have some experience, which I earned in my projects, to develop an API</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <div class="section">
+            <h2 class="title">Projects</h2>
+            <div class="controller">
+                <button class="controller__btn controller__btn--active">All</button>
+                <button class="controller__btn">React</button>
+                <button class="controller__btn">Vue</button>
+                <button class="controller__btn">NodeJs</button>
+            </div>
+            <ul class="gallery">
+                <li class="project" value="react">
+                    <img src="./imgs/weather-app.png" alt="weather app" class="project__img">
+                    <a href="https://buimanhthang.github.io/react-weather-app/" target="_blank" class="btn project__btn project__btn--demo">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <a href="https://github.com/BuiManhThang/react-weather-app" target="_blank" class="btn project__btn project__btn--link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="project__desc">
+                        <p class="project__name">Weather App</p>
+                        <p class="project__role">Developer</p>
+                    </div>
+                </li>
+                <li class="project" value="react">
+                    <img src="./imgs/e-commerce-app.png" alt="e-commerce app" class="project__img">
+                    <a href="https://buimanhthang.github.io/e-commerce/" target="_blank" class="btn project__btn project__btn--demo">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <a href="https://github.com/BuiManhThang/e-commerce" target="_blank" class="btn project__btn project__btn--link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="project__desc">
+                        <p class="project__name">E-commerce App</p>
+                        <p class="project__role">Developer</p>
+                    </div>
+                </li>
+                <li class="project" value="react">
+                    <img src="./imgs/todo-app.png" alt="todo app" class="project__img">
+                    <a href="https://buimanhthang.github.io/react-todo-list/" target="_blank" class="btn project__btn project__btn--demo">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <a href="https://github.com/BuiManhThang/react-todo-list/tree/master" target="_blank" class="btn project__btn project__btn--link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="project__desc">
+                        <p class="project__name">Todo App</p>
+                        <p class="project__role">Developer</p>
+                    </div>
+                </li>
+                <li class="project" value="vue">
+                    <img src="./imgs/waifu-app.png" alt="waifu app" class="project__img">
+                    <a href="#" class="btn project__btn project__btn--demo">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <a href="https://github.com/BuiManhThang/vue-waifu-app" target="_blank" class="btn project__btn project__btn--link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="project__desc">
+                        <p class="project__name">Waifu App</p>
+                        <p class="project__role">Developer</p>
+                    </div>
+                </li>
+                <li class="project" value="nodejs">
+                    <img src="./imgs/waifu-api.png" alt="waifu api" class="project__img">
+                    <a href="#" class="btn project__btn project__btn--demo">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <a href="https://github.com/BuiManhThang/waifu-api" target="_blank" class="btn project__btn project__btn--link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="project__desc">
+                        <p class="project__name">Waifu Api</p>
+                        <p class="project__role">Developer</p>
+                    </div>
+                </li>
+                <li class="project" value="nodejs">
+                    <img src="./imgs/laptop-api.png" alt="laptop api" class="project__img">
+                    <a href="#" class="btn project__btn project__btn--demo">
+                        <i class="fas fa-link"></i>
+                    </a>
+                    <a href="https://github.com/BuiManhThang/laptop-api/tree/master" target="_blank" class="btn project__btn project__btn--link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="project__desc">
+                        <p class="project__name">Laptop Api</p>
+                        <p class="project__role">Developer</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="section">
+            <h2 class="title">Contact</h2>
+            <div class="contact__wapper">
+                <div class="contact__info">
+                    <p class="contact__text">
+                        <i class="fas fa-user contact__icon"></i>
+                        Kamisato Ayaka
+                    </p>
+                    <p class="contact__text">
+                        <i class="fas fa-tag contact__icon"></i>
+                        Web Developer
+                    </p>
+                    <p class="contact__text">
+                        <i class="fas fa-envelope contact__icon"></i>
+                        <a class="contact__email" href="mailto:arduinomk2016@gmail.com">arduinomk2016@gmail.com</a>  
+                    </p>
+                    <p class="contact__text">
+                        <i class="fas fa-phone contact__icon"></i>
+                        +84 967079850
+                    </p>
+                    <p class="contact__text">
+                        <i class="fas fa-map-marker-alt contact__icon"></i>
+                        HP, VN
+                    </p>
+                    <ul class="contact__social-list">
+                        <li class="contact__social-item">
+                            <a href="https://www.facebook.com/arduino.mk.9/" target="_blank" class="btn"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="contact__social-item">
+                            <a href="https://twitter.com/Nero19790599" target="_blank" class="btn"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="contact__social-item">
+                            <a href="https://www.linkedin.com/in/buimanhthang-2322a9220/" target="_blank" class="btn"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="contact__social-item">
+                            <a href="https://github.com/BuiManhThang" target="_blank" class="btn"><i class="fab fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact__form">
+                    <form action="mailto:arduinomk2016@gmail.com" method="post" enctype="text/plain">
+                        <input class="form-control" type="text" name="name" id="name" autocomplete="off" placeholder="Your Name">
+                        <input class="form-control" type="email" name="email" id="email" autocomplete="off" placeholder="Your Email">
+                        <input class="form-control" type="text" name="subject" id="subjext" autocomplete="off" placeholder="Subject">
+                        <textarea class="form-control" name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                        <button class="btn contact__form-submit" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="mailto:arduinomk2016@gmail.com">© Arthuria</a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
