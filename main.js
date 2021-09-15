@@ -21,7 +21,7 @@ navLinks.forEach(link => {
 
 const headerText = document.querySelector('.header__text-animation');
 const headerPointer = document.querySelector('.header__pointer');
-let text = ['Web Developer', 'Front-end Developer', 'Simp Baal'];
+let text = ['Web Developer', 'Frontend Developer'];
 let headerIndex = 1;
 let isWrite = true;
 let timestamp = 100;
