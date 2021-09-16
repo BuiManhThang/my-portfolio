@@ -24,7 +24,7 @@ const headerPointer = document.querySelector('.header__pointer');
 let text = ['Web Developer', 'Frontend Developer'];
 let headerIndex = 1;
 let isWrite = true;
-let timestamp = 100;
+let timestamp = 50;
 let delay = 0;
 let textIndex = 0;
 
@@ -34,11 +34,16 @@ const setAnimation = (str) => {
         if (headerIndex <= headerTextLength) {
             headerPointer.classList.remove('header__pointer--active');
             headerText.textContent = str[textIndex].slice(0, headerIndex);
-            headerIndex += 1;
+            if(delay < 2) {
+                delay++;
+            } else {
+                headerIndex += 1;
+                delay = 0;
+            }
         } else {
             headerPointer.classList.add('header__pointer--active');
             headerText.textContent = str[textIndex];
-            if (delay < 10) {
+            if (delay < 25) {
                 delay++;
             } else {
                 isWrite = false;
@@ -49,7 +54,7 @@ const setAnimation = (str) => {
         if (headerIndex > 0) {
             headerPointer.classList.remove('header__pointer--active');
             headerText.textContent = str[textIndex].slice(0, headerIndex);
-            headerIndex -= 2;
+            headerIndex -= 1;
         } else {
             headerText.textContent = '';
             isWrite = true;
